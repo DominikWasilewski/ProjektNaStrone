@@ -26,7 +26,9 @@ body {
 }
 
 .price {
-  color: yellow;
+  color: #d8a611;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .bold {
@@ -69,9 +71,9 @@ li {
   padding: 15px 20px;
 }
 
-l
 
-/* Styl dla logo */
+
+
 .logo {
   color: #000;
   font-size: 1.5em;
@@ -137,10 +139,11 @@ footer {
 .yellow {
   background-color: #ffc107;
   border-radius: 20px;
+  width: 200px;
 
-  display: inline-block; 
-  color: black; 
-  font-weight: bold; 
+  display: inline-block;
+  color: black;
+  font-weight: bold;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -158,13 +161,13 @@ footer {
   font-size: 20px;
 }
 .open-profile {
-  background-color: #ddddd4; 
-  border-radius: 20px; 
-  padding: 10px 20px; 
-  margin: 10px; 
-  display: inline-block; 
-  color: black; 
-  font-weight: bold; 
+  background-color: #ddddd4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  color: black;
+  font-weight: bold;
   height: 50px;
   display: flex;
   justify-content: center;
@@ -183,14 +186,6 @@ footer {
   align-items: center;
 }
 
-main {
-  height: 100vh;
-  margin-left: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .menu {
   display: flex;
   justify-content: space-around;
@@ -198,18 +193,89 @@ main {
   flex-wrap: wrap;
 }
 
-.card {
-  padding: 100px;
-  margin: 20px;
-  background-color: white;
-  border-radius: 50px;
-  width: 400px;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.burger-img {
+  width: 30%;
 }
 .img {
   width: 30vh;
 }
+main {
+  margin-left: 250px;
+}
 
+.top {
+  display: flex;
+  height: 10vh;
+}
+
+.fa-magnifying-glass {
+  margin-left: 20px;
+}
+.top > i {
+  font-size: 20px;
+}
+
+.margin-top {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.fa-chevron-right {
+  margin-left: 10px;
+}
+
+.search {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: auto;
+  height: 5vh;
+  background-color: rgb(172, 163, 163);
+  width: 20%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.burger {
+  height: 10vh;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.burgers-items {
+  height: 80vh;
+  width: 100%;
+}
+
+.card {
+  height: 200px;
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+  width: 20%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.flex-item {
+  flex: 1 1 30%; 
+  margin: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+}
+
+.flex-item img {
+  width: 100%; 
+  height: auto;
+}
+
+.flex-item h3,
+.flex-item p {
+  margin: 10px 0; 
+}

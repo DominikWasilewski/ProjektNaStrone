@@ -7,23 +7,28 @@
       src="https://kit.fontawesome.com/b24db0ae38.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css" />
+
     <title>Document</title>
   </head>
   <body>
+    <div class="workspace">
     <nav>
       <ul>
         <li>
           <div class="logo">
-            <i class="fa-solid fa-suitcase"></i>Smart
-            <div class="red">POS</div>
+            <span><i class="fa-solid fa-suitcase"></i></span><span class="smart">Smart</span><div class="red">POS</div>
           </div>
+          
         </li>
         <li>
           <div><i class="fa-solid fa-grip-vertical"></i>Dashboard</div>
         </li>
         <li>
-          <div><i class="fa-solid fa-burger"></i>Food & Drinks</div>
+          <div class="yellow""><i class="fa-solid fa-burger"></i>Food & Drinks</div>
         </li>
         <li>
           <div><i class="fa-solid fa-comment"></i>Messages</div>
@@ -38,97 +43,75 @@
           <div class="gray">Other</div>
         </li>
         <li>
-          <div><i class="fa-solid fa-exclamation"></i>Notifications</div>
-          <div class="messages"></div>
+          <div><i class="fa-solid fa-exclamation"></i>Notifications</div><span class="circle">3</span>
         </li>
         <li>
           <div><i class="fa-solid fa-circle-info"></i>Support</div>
         </li>
       </ul>
-    </nav>
+    
     <div class="profile">
-      <img src="" alt="" />
+      <img src="../hand-drawn-waiter-cartoon-illustration_23-2150803196.avif" alt="" />
       <div class="Name">Theresa Webb</div>
       <div class="job">Waiter • 4h 56m</div>
       <div class="open-profile">Open profile</div>
     </div>
+    
     <footer>
       <div class="gray">(C) 2020 SmartPOS App</div>
     </footer>
+  </nav>
     <main>
-      <div class="directory">
-        <div><i class="fa-solid fa-arrow-left"></i></div>
-        <div class="gray">Food & Drinks</div>
-        <div><i class="fa-solid fa-chevron-right"></i></div>
-        <div>Burgers</div>
-        <div class="search"></div>
+      <div class="top">
+        <div class="margin-top">
+          <i class="fa-solid fa-arrow-left"></i>
+          <span class="top-directory">Food & Drinks</span>
+          <i class="fa-solid fa-chevron-right"></i>
+          <span class="bold">Burgers</span>
+        </div>
+        <span class="search"><i class="fa-solid fa-magnifying-glass"></i>Search...</span>
       </div>
-      <div class="menu">
-        <div class="bold">Burgers🍔</div>
-        <div class="card-1">
-            <div class="bold">
-                Cheeseburger
-                <div class="gray">
-                    150g
-                    <div class="price">$ 3.50</div>
-                </div>
-            </div>
+      <div class="burger">Burgers🍔</div>
+      <div class="flex-container">
+        <div class="flex-item">
+          <img src="../img/cheeseburger.png" alt="Cheeseburger">
+          <h3>Cheeseburger</h3>
+          <p class="grey">150 g</p>
+          <p class="price">$3.50</p>
         </div>
-        <div class="card-2">
-            <div class="bold">
-                Chicken-Deluxe
-                <div class="gray">
-                    240g
-                    <div class="price">
-                        $4.25
-                    </div>
-                </div>
-            </div>
+        <div class="flex-item">
+          <img src="../img/big-mac.png" alt="Chicken-Deluxe">
+          <h3>Big Mac</h3>
+          <p class="grey">240 g</p>
+          <p class="price">$4.25</p>
         </div>
-        <div class="card-3">
-            <div class="bold">
-                Hamburger
-                <div class="gray">
-                    320g
-                    <div class="price">
-                        $4.50
-                    </div>
-                </div>
-            </div>
+        <div class="flex-item">
+          <img src="../img/veggie-burger.png" alt="Hamburger">
+          <h3>Veggie Burger</h3>
+          <p class="grey">320 g</p>
+          <p class="price">$4.50</p>
         </div>
-        <div class="card-4">
-            <div class="bold">
-                Big John
-                <div class="gray">
-                    650g
-                    <div class="price">$5.50</div>
-                </div>
-            </div>
+        <div class="flex-item">
+          <img src="../img/jallapeno.png" alt="Big John">
+          <h3>Jallapeno Burger</h3>
+          <p class="grey">650 g</p>
+          <p class="price">$5.00</p>
         </div>
-        <div class="card-5">
-            <div class="bold">
-                Spicy Chicken
-                <div class="gray">
-                    340g
-                    <div class="price">
-                        $4.35
-                    </div>
-                </div>
-            </div>
+        <div class="flex-item">
+          <img src="../img/hamburger.png" alt="Spicy Chicken">
+          <h3>Hamburger</h3>
+          <p class="grey">340 g</p>
+          <p class="price">$4.75</p>
         </div>
-        <div class="card-6">
-            <div class="bold">
-                Superstars
-                <div class="gray">
-                    250g
-                    <div class="price">
-                        $2.50
-                    </div>
-                </div>
-            </div>
+        <div class="flex-item">
+          <img src="../img/mcroyal.png" alt="Superstars">
+          <h3>Mc Royal</h3>
+          <p class="grey">250 g</p>
+          <p class="price">$4.00</p>
         </div>
       </div>
+      
     </main>
+    </div>
   </body>
 </html>
-
